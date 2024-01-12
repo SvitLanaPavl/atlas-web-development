@@ -24,6 +24,7 @@ The project focuses on creating a well-structured HTML document with various sec
 ```
 atlas-web-development/
 | -- html_advanced/
+| --| -- README.md
 |   | -- index.html
 |   | -- images/
 |   | -- | -- ...
@@ -78,3 +79,15 @@ The footer section includes a block with an image and another block with images 
 ### End product
 
 <img src="images/end_product.jpeg" alt="End product">
+
+## Tools/Frameworks used 📖
+- HTML/CSS
+- Figma
+
+## Author/Contact info :phone: :mailbox:
+
+* **Svitlana Pavlovska** **|** [Github](https://github.com/SvitLanaPavl) **|** [LinkedIn](https://www.linkedin.com/in/svitlana-pavlovska-833b43184/) **|** [Email](mailto:lanapavlovska90@gmail.com)
+##
+![Holberton School - School of Computer Science and Programming](https://uploads-ssl.webflow.com/6105315644a26f77912a1ada/63eea844ae4e3022154e2878_Holberton.png)
+##
+
