@@ -7,7 +7,7 @@ This project includes an HTML structure for the web page layout, consisting of v
 - [Project Overview](#project-overview)
 - [Directory Structure](#directory-structure)
 - [Sections](#sections)
-  - [Header](#header)
+  - [Header](##header)
   - [Banner](#banner)
   - [Quote](#quote)
   - [Videos](#videos)
@@ -88,6 +88,5 @@ The footer section includes a block with an image and another block with images 
 
 * **Svitlana Pavlovska** **|** [Github](https://github.com/SvitLanaPavl) **|** [LinkedIn](https://www.linkedin.com/in/svitlana-pavlovska-833b43184/) **|** [Email](mailto:lanapavlovska90@gmail.com)
 ##
-![Holberton School - School of Computer Science and Programming](https://uploads-ssl.webflow.com/6105315644a26f77912a1ada/63eea844ae4e3022154e2878_Holberton.png)
-##
+<img src="images/atlas_school.png" alt="Coding School Atlas" style="width: 100%;">
 
