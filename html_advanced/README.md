@@ -7,7 +7,7 @@ This project includes an HTML structure for the web page layout, consisting of v
 - [Project Overview](#project-overview)
 - [Directory Structure](#directory-structure)
 - [Sections](#sections)
-  - [Header](##header)
+  - [Header](#header)
   - [Banner](#banner)
   - [Quote](#quote)
   - [Videos](#videos)
