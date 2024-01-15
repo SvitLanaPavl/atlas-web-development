@@ -2,18 +2,6 @@
 
 This project includes an HTML structure for the web page layout, consisting of various sections like Header, Banner, Quote, Videos, Membership, FAQ, and Footer.
 
-## Table of Contents 	🗂️
-
-- [Project Overview](#project-overview)
-- [Directory Structure](#directory-structure)
-- [Sections](#sections)
-  - [Header](#header)
-  - [Banner](#banner)
-  - [Quote](#quote)
-  - [Videos](#videos)
-  - [Membership](#membership)
-  - [FAQ](#faq)
-  - [Footer](#footer)
 
 ## Project Overview 📌
 
