@@ -1,0 +1,38 @@
+/* School Page */
+body {
+  width: 1440px;
+  height: 3718px; 
+}
+/*Header */
+header {
+  width: 1103.408px;
+  height: 29.461px;
+  flex-shrink: 0;
+}
+#logo {
+  width: 167.016px;
+  height: 29.461px;
+  flex-shrink: 0;
+}
+#banner {
+  background: url(../images/banner-bgr.png), lightgray 0px 0px / 100% 100% no-repeat;
+  width: 1448.15px;
+  height: 1055px;
+  flex-shrink: 0;
+}
+#menu {
+  display: inline-flex;
+  height: 15px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 52px;
+  flex-shrink: 0;
+}
+#menu a {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
