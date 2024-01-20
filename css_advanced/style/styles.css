@@ -6,9 +6,21 @@ body {
 }
 /*Header */
 header {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  left: 175.67px;
+  top: 45px;
+}
+#header_cont {
   width: 1103.408px;
   height: 29.461px;
-  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #logo {
   width: 167.016px;
@@ -19,7 +31,7 @@ header {
   display: inline-flex;
   height: 15px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 52px;
   flex-shrink: 0;
 }
@@ -30,16 +42,27 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-decoration: none;
 }
 
 /* Main */
+main {
+  
+}
 #main-part {
+  position: absolute;
+  z-index: 1;
+  top: 0;
   width: 1440px;
   height: 1093px;
   flex-shrink: 0;
-  background-image: url(../images/banner.png);
-  /*background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url(../images/banner_bgr.png) center/cover no-repeat;*/
+  /*background-image: url(../images/banner.png);*/
+  background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url(../images/banner_bgr.png) center/cover no-repeat;
 }
+#get_schooled {
+
+}
+
 #get-schooled h1 {
   color: #FFF;
   text-align: center;
@@ -48,6 +71,8 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 250px;
+  margin-bottom: 0px;
 }
 
 #get-schooled p {
@@ -58,9 +83,11 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  word-spacing: 50px;
 }
 
 #get-schooled button {
+  margin-top: 51px;
   width: 162px;
   height: 44px;
   flex-shrink: 0;
