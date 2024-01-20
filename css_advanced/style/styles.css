@@ -37,7 +37,8 @@ header {
   width: 1440px;
   height: 1093px;
   flex-shrink: 0;
-  background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url(../images/banner_bgr.png) center/cover no-repeat;
+  background-image: url(../images/banner.png);
+  /*background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url(../images/banner_bgr.png) center/cover no-repeat;*/
 }
 #get-schooled h1 {
   color: #FFF;
