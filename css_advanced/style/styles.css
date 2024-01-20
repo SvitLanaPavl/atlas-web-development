@@ -37,7 +37,7 @@ main {
   height: 1093px;
   flex-shrink: 0;
 }
-#banner {
+#main-part {
   background: url(../images/banner-bgr.png), lightgray 0px 0px / 100% 100% no-repeat;
   width: 1448.15px;
   height: 1055px;
@@ -81,6 +81,11 @@ main {
 }
 
 /* Learn from the pros */
+#pros {
+  width: 1009px;
+  height: 237px;
+  flex-shrink: 0;
+}
 #pros h2 {
   color: #FFF;
   font-family: "Source Sans Pro";
@@ -91,4 +96,50 @@ main {
 }
 .purple {
   color: #C271FF;
+}
+#pros div {
+  display: flex;
+}
+.pro {
+  width: 150px;
+  height: 237px;
+  flex-shrink: 0;
+}
+.pro img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.pro h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 27px; /* 150% */
+  width: 150px;
+}
+.pro p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+/* Testimonials */
+#testimony {
+  width: 1440px;
+  height: 392px;
+  flex-shrink: 0;
+  background-color: #C271FF;
+}
+#testimonial-block {
+  width: 943px;
+  height: 160px;
+  flex-shrink: 0;
+  display: flex;
 }
