@@ -104,6 +104,7 @@ main {
   width: 150px;
   height: 237px;
   flex-shrink: 0;
+  flex-direction: column;
 }
 .pro img {
   width: 150px;
@@ -209,6 +210,7 @@ main {
   width: 255px;
   height: 335px;
   flex-shrink: 0;
+  flex-direction: column;
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
@@ -268,4 +270,62 @@ main {
   width: 107px;
   height: 15px;
   flex-shrink: 0;
+}
+/* Free membership */
+#membership {
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  background-color: #071629;
+}
+#membership h1 {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#membership .purple {
+  color: #C271FF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#membership div {
+  display: flex;
+}
+.smile {
+  width: 257px;
+  height: 153px;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.smile img {
+  width: 43.666px;
+  height: 35.353px;
+  flex-shrink: 0;
+}
+.smile h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  width: 256px;
+}
+.smile p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  width: 212px;
 }
