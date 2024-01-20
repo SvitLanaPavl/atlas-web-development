@@ -13,7 +13,7 @@ header {
   align-items: center;
   flex-shrink: 0;
   left: 175.67px;
-  top: 45px;
+  top: 40px;
 }
 #header_cont {
   width: 1103.408px;
@@ -116,12 +116,14 @@ main {
   margin-left: 221.08px;;
 }
 #pros h2 {
+  text-align: center;
   color: #FFF;
   font-family: "Source Sans Pro";
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 87px;
 
 }
 .purple {
