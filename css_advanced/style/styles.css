@@ -102,13 +102,18 @@ main {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-left: 643.08px;
 }
 
 /* Learn from the pros */
 #pros {
+  margin-top: 150px;
   width: 1009px;
   height: 237px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 221.08px;;
 }
 #pros h2 {
   color: #FFF;
@@ -117,12 +122,17 @@ main {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+
 }
 .purple {
   color: #C271FF;
 }
-#pros div {
+#pro_list {
   display: flex;
+  width: 1009px;
+  height: 237px;
+  flex-shrink: 0;
+  justify-content: space-around;
 }
 .pro {
   width: 150px;
