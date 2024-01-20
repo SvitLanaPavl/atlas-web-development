@@ -1,7 +1,8 @@
 /* School Page */
 body {
   width: 1440px;
-  height: 3718px; 
+  height: 3718px;
+  background: #FFF;
 }
 /*Header */
 header {
@@ -32,16 +33,11 @@ header {
 }
 
 /* Main */
-main {
+#main-part {
   width: 1440px;
   height: 1093px;
   flex-shrink: 0;
-}
-#main-part {
-  background: url(../images/banner-bgr.png), lightgray 0px 0px / 100% 100% no-repeat;
-  width: 1448.15px;
-  height: 1055px;
-  flex-shrink: 0;
+  background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url(../images/banner_bgr.png) center/cover no-repeat;
 }
 #get-schooled h1 {
   color: #FFF;
@@ -145,8 +141,8 @@ main {
   display: flex;
 }
 #testimonial-block img {
-  width: 394px;
-  height: 341px;
+  width: 160px;
+  height: 160px;
   flex-shrink: 0;
   border-radius: 50%;
 }
@@ -387,4 +383,32 @@ main {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   width: 350px;
+}
+/* Footer */
+footer {
+  width: 1440px;
+  height: 249px;
+  flex-shrink: 0;
+  background-color: #071629;
+}
+#footer_logo {
+  display: inline-flex;
+  padding: 0.023px 0px 0.516px 0.592px;
+  justify-content: center;
+  align-items: center;
+  gap: 18.019px;
+}
+#social {
+  width: 130px;
+  height: 30px;
+  flex-shrink: 0;
+}
+#footer_cont p {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3517;
 }
