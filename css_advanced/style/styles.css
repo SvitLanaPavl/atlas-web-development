@@ -311,6 +311,8 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 0px;
+  padding: 10px;
 }
 .tutorial p {
   color: rgba(7, 22, 41, 0.50);
@@ -319,6 +321,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 171.429% */
+  padding-left: 10px;
 }
 .rating {
   display: flex;
@@ -330,7 +333,7 @@ header {
   flex-direction: row;
   align-items: center;
 }
-.rating img {
+.rating-pers img {
   width: 30px;
   height: 30px;
   flex-shrink: 0;
@@ -356,10 +359,13 @@ header {
   font-weight: 600;
   line-height: 27px; /* 192.857% */
 }
-.stars div {
+.star-group {
   width: 107px;
   height: 15px;
   flex-shrink: 0;
+}
+.star-group .star {
+
 }
 /* Free membership */
 #membership {
