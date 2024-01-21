@@ -3,6 +3,7 @@ body {
   width: 1440px;
   height: 3718px;
   background: #FFF;
+  margin: 0px;
 }
 /*Header */
 header {
@@ -534,7 +535,7 @@ footer {
   flex-shrink: 0;
   display: flex;
 }
-#socail img {
+#socail a {
   width: 25px;
   height: 25px;
 }
