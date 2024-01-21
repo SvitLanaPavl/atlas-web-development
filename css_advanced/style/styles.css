@@ -518,6 +518,8 @@ footer {
   height: 249px;
   flex-shrink: 0;
   background-color: #071629;
+  display: flex;
+  flex-direction: column;
 }
 #footer_logo {
   display: inline-flex;
@@ -530,6 +532,14 @@ footer {
   width: 130px;
   height: 30px;
   flex-shrink: 0;
+  display: flex;
+}
+#socail img {
+  width: 25px;
+  height: 25px;
+}
+#footer_cont div {
+  display: flex;
 }
 #footer_cont p {
   color: #FFF;
