@@ -1,7 +1,6 @@
 /* School Page */
 body {
   width: 1440px;
-  height: 3718px;
   background: #FFF;
   margin: 0px;
 }
@@ -50,7 +49,7 @@ header {
 #main-part {
   z-index: 1;
   width: 1440px;
-  height: 1093px;
+  height: 1140px;
   flex-shrink: 0;
   /*background-image: url(../images/banner.png);*/
   background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url(../images/banner_bgr.png) center/cover no-repeat;
@@ -91,7 +90,7 @@ header {
 }
 
 #get-schooled button {
-  margin-top: 51px;
+  margin-top: 40px;
   width: 162px;
   height: 44px;
   flex-shrink: 0;
@@ -284,7 +283,7 @@ header {
 }
 .tutorial:nth-child(1) .play_btn {
   position: absolute;
-  top: /*1627px;*/217%;
+  top: /*1627px;*/224%;
   left: /*235px;*/15%;
   width: 64px;
   height: 64px;
@@ -292,7 +291,7 @@ header {
 }
 .tutorial:nth-child(2) .play_btn {
   position: absolute;
-  top: 217%;
+  top: 224%;
   left: 37%;
   width: 64px;
   height: 64px;
@@ -300,7 +299,7 @@ header {
 }
 .tutorial:nth-child(3) .play_btn {
   position: absolute;
-  top: 217%;
+  top: 224%;
   left: 58.5%;
   width: 64px;
   height: 64px;
@@ -308,7 +307,7 @@ header {
 }
 .tutorial:nth-child(4) .play_btn {
   position: absolute;
-  top: 217%;
+  top: 224%;
   left: 80%;
   width: 64px;
   height: 64px;
@@ -383,9 +382,6 @@ header {
   height: 15px;
   flex-shrink: 0;
 }
-.star-group .star {
-
-}
 /* Free membership */
 #membership {
   width: 1440px;
@@ -393,7 +389,7 @@ header {
   background-color: #071629;
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
 }
 #membership h1 {
