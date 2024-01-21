@@ -473,10 +473,11 @@ header {
 }
 #faq-cont {
   width: 920px;
-  height: 707px;
+  height: 100%;
   flex-shrink: 0;
 }
 #FAQ h1 {
+  margin-top: 67px;
   color: #071629;
   text-align: center;
   font-family: "Source Sans Pro";
