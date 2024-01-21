@@ -219,10 +219,19 @@ header {
   line-height: 33.6px; /* 152.727% */
 }
 /* Video tutorials */
+#tutorial-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #tutorials {
   width: 1228px;
   height: 450px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #tutorials h1 {
   color: #071629;
