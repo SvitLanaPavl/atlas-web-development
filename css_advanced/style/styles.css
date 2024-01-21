@@ -46,20 +46,16 @@ header {
 }
 
 /* Main */
-main {
-  
-}
 #main-part {
-  position: absolute;
   z-index: 1;
-  top: 0;
+  margin-top: -255px;
   width: 1440px;
   height: 1093px;
   flex-shrink: 0;
   /*background-image: url(../images/banner.png);*/
   background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url(../images/banner_bgr.png) center/cover no-repeat;
 }
-#get_schooled {
+#get-schooled {
 
 }
 
@@ -107,7 +103,7 @@ main {
 
 /* Learn from the pros */
 #pros {
-  margin-top: 150px;
+  margin-top: 100px;
   width: 1009px;
   height: 237px;
   flex-shrink: 0;
@@ -171,6 +167,9 @@ main {
 #testimony {
   width: 1440px;
   height: 392px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   background-color: #C271FF;
 }
@@ -179,6 +178,7 @@ main {
   height: 160px;
   flex-shrink: 0;
   display: flex;
+  justify-content: space-between;
 }
 #testimonial-block img {
   width: 160px;
@@ -186,12 +186,14 @@ main {
   flex-shrink: 0;
   border-radius: 50%;
 }
-#testimonial-block div {
+#test-quote {
   width: 730px;
   height: 158px;
   flex-shrink: 0;
+  padding: 0;
 }
-#testimonial-block div blockquote {
+#test-quote blockquote {
+  margin: 0;
   width: 730px;
   color: #FFF;
   font-family: "Source Sans Pro";
@@ -205,7 +207,7 @@ main {
   font-family: "Source Sans Pro";
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 33.6px;
 }
 .italic {
