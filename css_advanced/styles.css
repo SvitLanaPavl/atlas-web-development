@@ -240,7 +240,7 @@ header {
   width: 100%;
 }
 #tutorials {
-  width: 1228px;
+  width: 85%;
   height: 450px;
   flex-shrink: 0;
   display: flex;
