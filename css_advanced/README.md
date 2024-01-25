@@ -2,9 +2,6 @@
 
 This project is a continuation of the "HTML Advanced" project, focusing on the CSS and styling aspects. The Figma designer file attached below is used as a reference.
 
-## Project Overview 📌
-
-
 
 ## Directory Structure 📚
 
