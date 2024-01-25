@@ -1,4 +1,7 @@
 /* School Page */
+* {
+  box-sizing: border-box;
+}
 body {
   width: 100%;
   background: #FFF;
@@ -279,19 +282,59 @@ header {
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+  z-index: 1;
 }
-.tutorial .video {
+#video1 {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('images/diagonal.png');
+  width: 255px;
+  height: 154px;
+  flex-shrink: 0;
+  border-radius: 5px 5px 0px 0px;
+  background: #D8D8D8;
+  z-index: 2;
+}
+#video2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/sad.png) center/cover no-repeat;
   width: 255px;
   height: 154px;
   flex-shrink: 0;
   border-radius: 5px 5px 0px 0px;
   background: #D8D8D8;
 }
-.tutorial:nth-child(1) .play_btn {
-  position: absolute;
-  top: 225.5%;
-  left: 15%;
+#video3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/natural.png) center/cover no-repeat;
+  width: 255px;
+  height: 154px;
+  flex-shrink: 0;
+  border-radius: 5px 5px 0px 0px;
+  background: #D8D8D8;
+}
+#video4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/happy.png) center/cover no-repeat;
+  width: 255px;
+  height: 154px;
+  flex-shrink: 0;
+  border-radius: 5px 5px 0px 0px;
+  background: #D8D8D8;
+}
+/*.tutorial:nth-child(1) .play_btn {
+  position: relative;
   width: 64px;
   height: 64px;
   flex-shrink: 0;
@@ -313,13 +356,11 @@ header {
   flex-shrink: 0; 
 }
 .tutorial:nth-child(4) .play_btn {
-  position: absolute;
-  top: 225.5%;
-  left: 80%;
+  position: relative;
   width: 64px;
   height: 64px;
   flex-shrink: 0; 
-}
+}*/
 .tutorial h2 {
   color: #071629;
   font-family: "Source Sans Pro";
