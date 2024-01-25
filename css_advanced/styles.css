@@ -14,11 +14,12 @@ header {
   flex-shrink: 0;
   width: 75%;
   left: 175.67px;
+  height: 29.461px;
   top: 40px;
 }
 #header_cont {
-  width: 1103.408px;
-  height: 29.461px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,15 +51,15 @@ header {
 #main-part {
   z-index: 1;
   width: 100%;
-  height: 1140px;
+  height: 1180px;
   flex-shrink: 0;
   /*background-image: url(../images/banner.png);*/
  background: url(images/banner_bgr.png) center/cover no-repeat;
-
+ margin: 0;
 }
 #schooling_block {
   width: 100%;
-  height: 1140px;
+  height: 1180px;
   backdrop-filter: grayscale();
   background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%)
 }
@@ -113,13 +114,15 @@ header {
 
 /* Learn from the pros */
 #pros {
-  margin-top: 100px;
-  width: 1009px;
+  margin-top: 250px;
+  width: 100%;
   height: 237px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  margin-left: 221.08px;;
+  justify-content: center;
+  align-items: center;
+
 }
 #pros h2 {
   text-align: center;
@@ -137,7 +140,7 @@ header {
 }
 #pro_list {
   display: flex;
-  width: 1009px;
+  width: 80%;
   height: 237px;
   flex-shrink: 0;
   justify-content: space-around;
@@ -175,7 +178,7 @@ header {
 }
 /* Testimonials */
 #testimony {
-  width: 1440px;
+  width: 100%;
   height: 392px;
   display: flex;
   align-items: center;
@@ -234,6 +237,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 550px;
+  width: 100%;
 }
 #tutorials {
   width: 1228px;
@@ -286,7 +290,7 @@ header {
 }
 .tutorial:nth-child(1) .play_btn {
   position: absolute;
-  top: 1737px;
+  top: 225.5%;
   left: 15%;
   width: 64px;
   height: 64px;
@@ -294,7 +298,7 @@ header {
 }
 .tutorial:nth-child(2) .play_btn {
   position: absolute;
-  top: 1737px;
+  top: 225.5%;
   left: 37%;
   width: 64px;
   height: 64px;
@@ -302,7 +306,7 @@ header {
 }
 .tutorial:nth-child(3) .play_btn {
   position: absolute;
-  top: 1737px;
+  top: 225.5%;
   left: 58.5%;
   width: 64px;
   height: 64px;
@@ -310,7 +314,7 @@ header {
 }
 .tutorial:nth-child(4) .play_btn {
   position: absolute;
-  top: 1737px;
+  top: 225.5%;
   left: 80%;
   width: 64px;
   height: 64px;
@@ -387,7 +391,7 @@ header {
 }
 /* Free membership */
 #membership {
-  width: 1440px;
+  width: 100%;
   height: 502px;
   background-color: #071629;
   display: flex;
@@ -473,6 +477,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 850px;
+  width: 100%;
 }
 #faq-cont {
   width: 920px;
@@ -527,7 +532,7 @@ header {
 }
 /* Footer */
 footer {
-  width: 1440px;
+  width: 100%;
   height: 249px;
   flex-shrink: 0;
   background-color: #071629;
